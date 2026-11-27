@@ -1,0 +1,104 @@
+:root {
+  --bg: #f4f6fa;
+  --surface: #ffffff;
+  --surface-2: #eef1f6;
+  --text: #17202e;
+  --muted: #5d6879;
+  --border: #dde2ea;
+  --accent: #0b4ea2;
+  --accent-soft: #e3ecf9;
+  --new: #d93025;
+  --mark: #fff1a8;
+  --radius: 12px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #11151c;
+    --surface: #1a1f28;
+    --surface-2: #232a35;
+    --text: #e6e9ef;
+    --muted: #98a2b3;
+    --border: #2d3542;
+    --accent: #7aa7ec;
+    --accent-soft: #1f2d45;
+    --new: #ff6b5e;
+    --mark: #5b4d12;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', 'Pretendard', 'Malgun Gothic', sans-serif;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.page { max-width: 1180px; margin: 0 auto; padding: 40px 16px; }
+.page.narrow { max-width: 760px; }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+}
+
+.card-head { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; }
+.card-head h2 { margin: 0; font-size: 17px; }
+.card-head .count, .card-head .more { margin-left: auto; color: var(--muted); font-size: 13px; }
+.card-head .more:hover { color: var(--accent); }
+
+.empty { color: var(--muted); margin: 8px 0; }
+.error { color: var(--new); font-size: 13px; }
+
+button, .ghost {
+  font: inherit;
+  font-size: 13px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover, .ghost:hover { border-color: var(--accent); color: var(--accent); }
+button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+button.primary:hover { opacity: 0.9; color: #fff; }
+
+input[type='text'], input[type='url'], input[type='number'], input[type='search'] {
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 10px;
+}
+input:focus { outline: 2px solid var(--accent); outline-offset: -1px; }
+
+mark { background: var(--mark); color: inherit; border-radius: 3px; padding: 0 2px; }
+
+/* 학과 선택 (새 탭·설정 공용) */
+.chips { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin-bottom: 12px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--accent-soft); color: var(--accent);
+  padding: 3px 4px 3px 10px; border-radius: 999px; font-size: 13px; font-weight: 600;
+}
+.chip-x { border: 0; background: transparent; padding: 0 6px; color: inherit; font-size: 15px; line-height: 1; }
+.dept-search { width: 100%; }
+.dept-results { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
+.dept-option { width: 100%; display: flex; align-items: baseline; gap: 8px; text-align: left; border-color: transparent; padding: 7px 10px; }
+.dept-option:hover { background: var(--surface-2); }
+.dept-option.on { background: var(--accent-soft); color: var(--accent); }
+.dept-option:disabled { opacity: 0.5; cursor: not-allowed; }
+.dept-name { font-weight: 600; }
+.dept-college { font-size: 12px; color: var(--muted); }
+.dept-check { margin-left: auto; font-weight: 700; }
+.help { color: var(--muted); font-size: 13px; margin: 8px 0 0; }

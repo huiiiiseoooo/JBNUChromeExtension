@@ -1,0 +1,27 @@
+{
+  "name": "jbnu-keyword-notifier",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "전북대 공지사항 키워드 알림 + 주요 뉴스 새 탭 대시보드",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huiiiiseoooo/JBNUChromeExtension.git"
+  },
+  "scripts": {
+    "dev": "vite build --watch --mode development",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "zip": "npm run build && cd dist && zip -r ../jbnu-keyword-notifier.zip ."
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^26.6.6",
+    "jsdom": "^31.0.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

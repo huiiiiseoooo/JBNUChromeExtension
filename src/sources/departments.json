@@ -1,0 +1,707 @@
+[
+  {
+    "id": "nursing",
+    "name": "간호학과",
+    "college": "간호대학",
+    "homepage": "http://nursing.jbnu.ac.kr",
+    "noticeUrl": "https://nursing.jbnu.ac.kr/bbs/nursing/1166/artclList.do"
+  },
+  {
+    "id": "business",
+    "name": "경영학과",
+    "college": "경상대학",
+    "homepage": "http://business.jbnu.ac.kr",
+    "noticeUrl": "https://business.jbnu.ac.kr/bbs/business/1575/artclList.do"
+  },
+  {
+    "id": "econo",
+    "name": "경제학부",
+    "college": "경상대학",
+    "homepage": "http://econo.jbnu.ac.kr"
+  },
+  {
+    "id": "trade",
+    "name": "국제무역학과",
+    "college": "경상대학",
+    "homepage": "http://trade.jbnu.ac.kr",
+    "noticeUrl": "https://trade.jbnu.ac.kr/bbs/trade/627/artclList.do"
+  },
+  {
+    "id": "account",
+    "name": "회계학과",
+    "college": "경상대학",
+    "homepage": "http://account.jbnu.ac.kr",
+    "noticeUrl": "https://account.jbnu.ac.kr/bbs/account/438/artclList.do"
+  },
+  {
+    "id": "archi",
+    "name": "건축공학과",
+    "college": "공과대학",
+    "homepage": "http://archi.jbnu.ac.kr",
+    "noticeUrl": "https://archi.jbnu.ac.kr/bbs/archi/1086/artclList.do"
+  },
+  {
+    "id": "polynano",
+    "name": "고분자ㆍ나노공학과",
+    "college": "공과대학",
+    "homepage": "http://polynano.jbnu.ac.kr",
+    "noticeUrl": "https://polynano.jbnu.ac.kr/bbs/polynano/622/artclList.do"
+  },
+  {
+    "id": "me",
+    "name": "기계공학과",
+    "college": "공과대학",
+    "homepage": "http://me.jbnu.ac.kr",
+    "noticeUrl": "https://me.jbnu.ac.kr/bbs/me/1192/artclList.do"
+  },
+  {
+    "id": "mdesign",
+    "name": "기계설계공학부 기계설계공학전공",
+    "college": "공과대학",
+    "homepage": "http://mdesign.jbnu.ac.kr",
+    "noticeUrl": "https://mdesign.jbnu.ac.kr/bbs/mdesign/1202/artclList.do"
+  },
+  {
+    "id": "mdesign-2",
+    "name": "기계설계공학부 나노바이오기계시스템공학전공",
+    "college": "공과대학",
+    "homepage": "http://mdesign.jbnu.ac.kr",
+    "noticeUrl": "https://mdesign.jbnu.ac.kr/bbs/mdesign/1202/artclList.do"
+  },
+  {
+    "id": "mse",
+    "name": "기계시스템공학부",
+    "college": "공과대학",
+    "homepage": "http://mse.jbnu.ac.kr"
+  },
+  {
+    "id": "urban",
+    "name": "도시공학과",
+    "college": "공과대학",
+    "homepage": "http://urban.jbnu.ac.kr",
+    "noticeUrl": "https://urban.jbnu.ac.kr/bbs/urban/402/artclList.do"
+  },
+  {
+    "id": "biomedical",
+    "name": "바이오메디컬공학부",
+    "college": "공과대학",
+    "homepage": "https://biomedical.jbnu.ac.kr",
+    "noticeUrl": "https://biomedical.jbnu.ac.kr/bbs/bie/1180/artclList.do"
+  },
+  {
+    "id": "ise",
+    "name": "산업정보시스템공학과",
+    "college": "공과대학",
+    "homepage": "http://ise.jbnu.ac.kr",
+    "noticeUrl": "https://ise.jbnu.ac.kr/bbs/ise/389/artclList.do"
+  },
+  {
+    "id": "metal",
+    "name": "신소재공학부 금속시스템공학전공",
+    "college": "공과대학",
+    "homepage": "http://metal.jbnu.ac.kr",
+    "noticeUrl": "https://metal.jbnu.ac.kr/bbs/metal1/5224/artclList.do"
+  },
+  {
+    "id": "materials",
+    "name": "신소재공학부 전자재료공학전공",
+    "college": "공과대학",
+    "homepage": "http://materials.jbnu.ac.kr",
+    "noticeUrl": "https://materials.jbnu.ac.kr/bbs/materials/1658/artclList.do"
+  },
+  {
+    "id": "itmat",
+    "name": "신소재공학부 정보소재공학전공",
+    "college": "공과대학",
+    "homepage": "http://itmat.jbnu.ac.kr",
+    "noticeUrl": "https://itmat.jbnu.ac.kr/bbs/itmat2/5348/artclList.do"
+  },
+  {
+    "id": "atom",
+    "name": "양자시스템공학과",
+    "college": "공과대학",
+    "homepage": "http://atom.jbnu.ac.kr",
+    "noticeUrl": "https://atom.jbnu.ac.kr/bbs/atom/407/artclList.do"
+  },
+  {
+    "id": "org",
+    "name": "유기소재섬유공학과",
+    "college": "공과대학",
+    "homepage": "http://org.jbnu.ac.kr",
+    "noticeUrl": "https://org.jbnu.ac.kr/bbs/org/1021/artclList.do"
+  },
+  {
+    "id": "cte",
+    "name": "융합기술공학부 IT융합기전공학",
+    "college": "공과대학",
+    "homepage": "http://cte.jbnu.ac.kr",
+    "noticeUrl": "https://cte.jbnu.ac.kr/bbs/cte/530/artclList.do"
+  },
+  {
+    "id": "itase",
+    "name": "융합기술공학부 IT응용시스템공학",
+    "college": "공과대학",
+    "homepage": "https://itase.jbnu.ac.kr"
+  },
+  {
+    "id": "ee",
+    "name": "전기공학과",
+    "college": "공과대학",
+    "homepage": "http://ee.jbnu.ac.kr",
+    "noticeUrl": "https://ee.jbnu.ac.kr/bbs/ee/916/artclList.do"
+  },
+  {
+    "id": "eei",
+    "name": "전자공학부",
+    "college": "공과대학",
+    "homepage": "http://eei.jbnu.ac.kr",
+    "noticeUrl": "https://eei.jbnu.ac.kr/bbs/eei/1100/artclList.do"
+  },
+  {
+    "id": "res",
+    "name": "토목/환경/자원·에너지공학부 자원·에너지공학",
+    "college": "공과대학",
+    "homepage": "http://res.jbnu.ac.kr",
+    "noticeUrl": "https://res.jbnu.ac.kr/bbs/res/3244/artclList.do"
+  },
+  {
+    "id": "civil",
+    "name": "토목/환경/자원·에너지공학부 토목공학",
+    "college": "공과대학",
+    "homepage": "http://civil.jbnu.ac.kr",
+    "noticeUrl": "https://civil.jbnu.ac.kr/bbs/civil/693/artclList.do"
+  },
+  {
+    "id": "envi",
+    "name": "토목/환경/자원·에너지공학부 환경공학",
+    "college": "공과대학",
+    "homepage": "http://envi.jbnu.ac.kr",
+    "noticeUrl": "https://envi.jbnu.ac.kr/bbs/envi/1103/artclList.do"
+  },
+  {
+    "id": "aerospace",
+    "name": "항공우주공학과",
+    "college": "공과대학",
+    "homepage": "http://aerospace.jbnu.ac.kr",
+    "noticeUrl": "https://aerospace.jbnu.ac.kr/bbs/aerospace/477/artclList.do"
+  },
+  {
+    "id": "che",
+    "name": "화학공학부",
+    "college": "공과대학",
+    "homepage": "http://che.jbnu.ac.kr",
+    "noticeUrl": "https://che.jbnu.ac.kr/bbs/che/1175/artclList.do"
+  },
+  {
+    "id": "frme",
+    "name": "농경제유통학부 농업경제학전공",
+    "college": "농업생명과학대학",
+    "homepage": "https://frme.jbnu.ac.kr"
+  },
+  {
+    "id": "agrifm",
+    "name": "농경제유통학부 식품유통학전공",
+    "college": "농업생명과학대학",
+    "homepage": "http://agrifm.jbnu.ac.kr",
+    "noticeUrl": "https://agrifm.jbnu.ac.kr/bbs/agrifm/951/artclList.do"
+  },
+  {
+    "id": "animalbio",
+    "name": "동물생명공학과",
+    "college": "농업생명과학대학",
+    "homepage": "https://animalbio.jbnu.ac.kr"
+  },
+  {
+    "id": "animalsci",
+    "name": "동물자원과학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://animalsci.jbnu.ac.kr",
+    "noticeUrl": "https://animalsci.jbnu.ac.kr/bbs/animalsci/411/artclList.do"
+  },
+  {
+    "id": "wse",
+    "name": "목재응용과학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://wse.jbnu.ac.kr",
+    "noticeUrl": "https://wse.jbnu.ac.kr/bbs/wse/893/artclList.do"
+  },
+  {
+    "id": "fore",
+    "name": "산림환경과학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://fore.jbnu.ac.kr",
+    "noticeUrl": "https://fore.jbnu.ac.kr/bbs/fore/2048/artclList.do"
+  },
+  {
+    "id": "barr",
+    "name": "생명자원융합학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://barr.jbnu.ac.kr"
+  },
+  {
+    "id": "bime",
+    "name": "생물산업기계공학과",
+    "college": "농업생명과학대학",
+    "homepage": "https://bime.jbnu.ac.kr",
+    "noticeUrl": "https://bime.jbnu.ac.kr/bbs/bime/817/artclList.do"
+  },
+  {
+    "id": "bioenv",
+    "name": "생물환경화학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://bioenv.jbnu.ac.kr",
+    "noticeUrl": "https://bioenv.jbnu.ac.kr/bbs/bioenv/670/artclList.do"
+  },
+  {
+    "id": "sfarm",
+    "name": "스마트팜학과",
+    "college": "농업생명과학대학",
+    "homepage": "https://sfarm.jbnu.ac.kr"
+  },
+  {
+    "id": "plantmed",
+    "name": "식물의학과(구 농생물학과)",
+    "college": "농업생명과학대학",
+    "homepage": "https://plantmed.jbnu.ac.kr",
+    "noticeUrl": "https://plantmed.jbnu.ac.kr/bbs/agribio/961/artclList.do"
+  },
+  {
+    "id": "foodtech",
+    "name": "식품공학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://foodtech.jbnu.ac.kr"
+  },
+  {
+    "id": "hort",
+    "name": "원예학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://hort.jbnu.ac.kr"
+  },
+  {
+    "id": "crop",
+    "name": "작물생명과학과",
+    "college": "농업생명과학대학",
+    "homepage": "https://crop.jbnu.ac.kr"
+  },
+  {
+    "id": "la",
+    "name": "조경학과",
+    "college": "농업생명과학대학",
+    "homepage": "http://la.jbnu.ac.kr"
+  },
+  {
+    "id": "agrieng",
+    "name": "지역건설공학과",
+    "college": "농업생명과학대학",
+    "homepage": "https://agrieng.jbnu.ac.kr"
+  },
+  {
+    "id": "phyedu",
+    "name": "과학교육학부 물리교육전공",
+    "college": "사범대학",
+    "homepage": "https://phyedu.jbnu.ac.kr"
+  },
+  {
+    "id": "bioedu",
+    "name": "과학교육학부 생물교육전공",
+    "college": "사범대학",
+    "homepage": "http://bioedu.jbnu.ac.kr",
+    "noticeUrl": "https://bioedu.jbnu.ac.kr/bbs/bioedu/417/artclList.do"
+  },
+  {
+    "id": "earthedu",
+    "name": "과학교육학부 지구과학교육전공",
+    "college": "사범대학",
+    "homepage": "https://earthedu.jbnu.ac.kr"
+  },
+  {
+    "id": "chemedu",
+    "name": "과학교육학부 화학교육전공",
+    "college": "사범대학",
+    "homepage": "https://chemedu.jbnu.ac.kr",
+    "noticeUrl": "https://chemedu.jbnu.ac.kr/bbs/chemedu/876/artclList.do"
+  },
+  {
+    "id": "pedagogy",
+    "name": "교육학과",
+    "college": "사범대학",
+    "homepage": "http://pedagogy.jbnu.ac.kr"
+  },
+  {
+    "id": "koredu",
+    "name": "국어교육과",
+    "college": "사범대학",
+    "homepage": "https://koredu.jbnu.ac.kr",
+    "noticeUrl": "https://koredu.jbnu.ac.kr/bbs/koredu/852/artclList.do"
+  },
+  {
+    "id": "germanedu",
+    "name": "독어교육과",
+    "college": "사범대학",
+    "homepage": "https://germanedu.jbnu.ac.kr",
+    "noticeUrl": "https://germanedu.jbnu.ac.kr/bbs/germanedu/1257/artclList.do"
+  },
+  {
+    "id": "historyedu",
+    "name": "사회과교육학부 역사교육전공",
+    "college": "사범대학",
+    "homepage": "https://historyedu.jbnu.ac.kr"
+  },
+  {
+    "id": "ethedu",
+    "name": "사회과교육학부 윤리교육전공",
+    "college": "사범대학",
+    "homepage": "https://ethedu.jbnu.ac.kr",
+    "noticeUrl": "https://ethedu.jbnu.ac.kr/bbs/ethedu/428/artclList.do"
+  },
+  {
+    "id": "socialedu",
+    "name": "사회과교육학부 일반사회교육전공",
+    "college": "사범대학",
+    "homepage": "https://socialedu.jbnu.ac.kr"
+  },
+  {
+    "id": "geoedu",
+    "name": "사회과교육학부 지리교육전공",
+    "college": "사범대학",
+    "homepage": "https://geoedu.jbnu.ac.kr"
+  },
+  {
+    "id": "mathedu",
+    "name": "수학교육과",
+    "college": "사범대학",
+    "homepage": "https://mathedu.jbnu.ac.kr",
+    "noticeUrl": "https://mathedu.jbnu.ac.kr/bbs/mathedu/4233/artclList.do"
+  },
+  {
+    "id": "englishedu",
+    "name": "영어교육과",
+    "college": "사범대학",
+    "homepage": "https://englishedu.jbnu.ac.kr"
+  },
+  {
+    "id": "physicaledu",
+    "name": "체육교육과",
+    "college": "사범대학",
+    "homepage": "https://physicaledu.jbnu.ac.kr"
+  },
+  {
+    "id": "cpp",
+    "name": "공공인재학부",
+    "college": "사회과학대학",
+    "homepage": "https://cpp.jbnu.ac.kr"
+  },
+  {
+    "id": "media",
+    "name": "미디어커뮤니케이션학과",
+    "college": "사회과학대학",
+    "homepage": "https://media.jbnu.ac.kr",
+    "noticeUrl": "https://media.jbnu.ac.kr/bbs/media/318/artclList.do"
+  },
+  {
+    "id": "welfare",
+    "name": "사회복지학과",
+    "college": "사회과학대학",
+    "homepage": "http://welfare.jbnu.ac.kr",
+    "noticeUrl": "https://welfare.jbnu.ac.kr/bbs/welfare/460/artclList.do"
+  },
+  {
+    "id": "socio",
+    "name": "사회학과",
+    "college": "사회과학대학",
+    "homepage": "http://socio.jbnu.ac.kr",
+    "noticeUrl": "https://socio.jbnu.ac.kr/bbs/soc/5675/artclList.do"
+  },
+  {
+    "id": "psy",
+    "name": "심리학과",
+    "college": "사회과학대학",
+    "homepage": "http://psy.jbnu.ac.kr"
+  },
+  {
+    "id": "pol",
+    "name": "정치외교학과",
+    "college": "사회과학대학",
+    "homepage": "http://pol.jbnu.ac.kr",
+    "noticeUrl": "https://pol.jbnu.ac.kr/bbs/pol/578/artclList.do"
+  },
+  {
+    "id": "dpa",
+    "name": "행정학과",
+    "college": "사회과학대학",
+    "homepage": "http://dpa.jbnu.ac.kr",
+    "noticeUrl": "https://dpa.jbnu.ac.kr/bbs/dpa/315/artclList.do"
+  },
+  {
+    "id": "fshn",
+    "name": "식품영양학과",
+    "college": "생활과학대학",
+    "homepage": "https://fshn.jbnu.ac.kr",
+    "noticeUrl": "https://fshn.jbnu.ac.kr/bbs/fshn/446/artclList.do"
+  },
+  {
+    "id": "child",
+    "name": "아동학과",
+    "college": "생활과학대학",
+    "homepage": "https://child.jbnu.ac.kr"
+  },
+  {
+    "id": "fashion",
+    "name": "의류학과",
+    "college": "생활과학대학",
+    "homepage": "http://fashion.jbnu.ac.kr",
+    "noticeUrl": "https://fashion.jbnu.ac.kr/bbs/fashion/895/artclList.do"
+  },
+  {
+    "id": "housing",
+    "name": "주거환경학과",
+    "college": "생활과학대학",
+    "homepage": "https://housing.jbnu.ac.kr"
+  },
+  {
+    "id": "vetmed",
+    "name": "수의예과",
+    "college": "수의과대학",
+    "homepage": "http://vetmed.jbnu.ac.kr",
+    "noticeUrl": "https://vetmed.jbnu.ac.kr/bbs/vetmed/1332/artclList.do"
+  },
+  {
+    "id": "vetmed-2",
+    "name": "수의학과",
+    "college": "수의과대학",
+    "homepage": "http://vetmed.jbnu.ac.kr",
+    "noticeUrl": "https://vetmed.jbnu.ac.kr/bbs/vetmed/1332/artclList.do"
+  },
+  {
+    "id": "pharmacy",
+    "name": "약학과",
+    "college": "약학대학",
+    "homepage": "https://pharmacy.jbnu.ac.kr",
+    "noticeUrl": "https://pharmacy.jbnu.ac.kr/bbs/pharmacy/1820/artclList.do"
+  },
+  {
+    "id": "arts",
+    "name": "무용학과",
+    "college": "예술대학",
+    "homepage": "https://arts.jbnu.ac.kr/arts/5531/subview.do"
+  },
+  {
+    "id": "arts-2",
+    "name": "미술학과",
+    "college": "예술대학",
+    "homepage": "https://arts.jbnu.ac.kr/arts/5536/subview.do"
+  },
+  {
+    "id": "arts-3",
+    "name": "산업디자인학과",
+    "college": "예술대학",
+    "homepage": "https://arts.jbnu.ac.kr/arts/5541/subview.do"
+  },
+  {
+    "id": "arts-4",
+    "name": "음악과",
+    "college": "예술대학",
+    "homepage": "https://arts.jbnu.ac.kr/arts/5546/subview.do"
+  },
+  {
+    "id": "arts-5",
+    "name": "한국음악학과",
+    "college": "예술대학",
+    "homepage": "https://arts.jbnu.ac.kr/arts/5551/subview.do"
+  },
+  {
+    "id": "med",
+    "name": "의예과",
+    "college": "의과대학",
+    "homepage": "http://med.jbnu.ac.kr"
+  },
+  {
+    "id": "culture",
+    "name": "고고문화인류학과",
+    "college": "인문대학",
+    "homepage": "http://culture.jbnu.ac.kr",
+    "noticeUrl": "https://culture.jbnu.ac.kr/bbs/culture/1993/artclList.do"
+  },
+  {
+    "id": "korean",
+    "name": "국어국문학과",
+    "college": "인문대학",
+    "homepage": "http://korean.jbnu.ac.kr"
+  },
+  {
+    "id": "tsis",
+    "name": "국제학부",
+    "college": "인문대학",
+    "homepage": "http://tsis.jbnu.ac.kr"
+  },
+  {
+    "id": "deutsch",
+    "name": "독일학과",
+    "college": "인문대학",
+    "homepage": "https://deutsch.jbnu.ac.kr",
+    "noticeUrl": "https://deutsch.jbnu.ac.kr/bbs/deutsch/1263/artclList.do"
+  },
+  {
+    "id": "lis",
+    "name": "문헌정보학과",
+    "college": "인문대학",
+    "homepage": "http://lis.jbnu.ac.kr",
+    "noticeUrl": "https://lis.jbnu.ac.kr/bbs/lis1/5380/artclList.do"
+  },
+  {
+    "id": "history",
+    "name": "사학과",
+    "college": "인문대학",
+    "homepage": "https://history.jbnu.ac.kr"
+  },
+  {
+    "id": "spanish",
+    "name": "스페인∙중남미학과",
+    "college": "인문대학",
+    "homepage": "http://spanish.jbnu.ac.kr",
+    "noticeUrl": "https://spanish.jbnu.ac.kr/bbs/spanish/475/artclList.do"
+  },
+  {
+    "id": "english",
+    "name": "영어영문학과",
+    "college": "인문대학",
+    "homepage": "http://english.jbnu.ac.kr",
+    "noticeUrl": "https://english.jbnu.ac.kr/bbs/english_/5744/artclList.do"
+  },
+  {
+    "id": "japan",
+    "name": "일본학과",
+    "college": "인문대학",
+    "homepage": "https://japan.jbnu.ac.kr",
+    "noticeUrl": "https://japan.jbnu.ac.kr/bbs/japan/1254/artclList.do"
+  },
+  {
+    "id": "chinese",
+    "name": "중어중문학과",
+    "college": "인문대학",
+    "homepage": "http://chinese.jbnu.ac.kr"
+  },
+  {
+    "id": "philos",
+    "name": "철학과",
+    "college": "인문대학",
+    "homepage": "https://philos.jbnu.ac.kr",
+    "noticeUrl": "https://philos.jbnu.ac.kr/bbs/philos/320/artclList.do"
+  },
+  {
+    "id": "france",
+    "name": "프랑스∙아프리카학과",
+    "college": "인문대학",
+    "homepage": "https://france.jbnu.ac.kr"
+  },
+  {
+    "id": "ss",
+    "name": "과학학과",
+    "college": "자연과학대학",
+    "homepage": "http://ss.jbnu.ac.kr",
+    "noticeUrl": "https://ss.jbnu.ac.kr/bbs/ss/1389/artclList.do"
+  },
+  {
+    "id": "physics",
+    "name": "물리학과",
+    "college": "자연과학대학",
+    "homepage": "http://physics.jbnu.ac.kr",
+    "noticeUrl": "https://physics.jbnu.ac.kr/bbs/physics/702/artclList.do"
+  },
+  {
+    "id": "semi",
+    "name": "반도체과학기술학과",
+    "college": "자연과학대학",
+    "homepage": "http://semi.jbnu.ac.kr",
+    "noticeUrl": "https://semi.jbnu.ac.kr/bbs/semi/2131/artclList.do"
+  },
+  {
+    "id": "molb",
+    "name": "분자생물학과",
+    "college": "자연과학대학",
+    "homepage": "http://molb.jbnu.ac.kr",
+    "noticeUrl": "https://molb.jbnu.ac.kr/bbs/molb/729/artclList.do"
+  },
+  {
+    "id": "bio",
+    "name": "생명과학과",
+    "college": "자연과학대학",
+    "homepage": "http://bio.jbnu.ac.kr",
+    "noticeUrl": "https://bio.jbnu.ac.kr/bbs/bio/773/artclList.do"
+  },
+  {
+    "id": "math",
+    "name": "수학과",
+    "college": "자연과학대학",
+    "homepage": "http://math.jbnu.ac.kr",
+    "noticeUrl": "https://math.jbnu.ac.kr/bbs/math/742/artclList.do"
+  },
+  {
+    "id": "sportscience",
+    "name": "스포츠과학과",
+    "college": "자연과학대학",
+    "homepage": "https://sportscience.jbnu.ac.kr",
+    "noticeUrl": "https://sportscience.jbnu.ac.kr/bbs/sportscience/754/artclList.do"
+  },
+  {
+    "id": "ees",
+    "name": "지구환경과학과",
+    "college": "자연과학대학",
+    "homepage": "https://ees.jbnu.ac.kr",
+    "noticeUrl": "https://ees.jbnu.ac.kr/bbs/ees/768/artclList.do"
+  },
+  {
+    "id": "stat",
+    "name": "통계학과",
+    "college": "자연과학대학",
+    "homepage": "http://stat.jbnu.ac.kr",
+    "noticeUrl": "https://stat.jbnu.ac.kr/bbs/stat/834/artclList.do"
+  },
+  {
+    "id": "chemipia",
+    "name": "화학과",
+    "college": "자연과학대학",
+    "homepage": "http://chemipia.jbnu.ac.kr",
+    "noticeUrl": "https://chemipia.jbnu.ac.kr/bbs/chemipia/910/artclList.do"
+  },
+  {
+    "id": "dent",
+    "name": "치의예과",
+    "college": "치과대학",
+    "homepage": "http://dent.jbnu.ac.kr",
+    "noticeUrl": "https://dent.jbnu.ac.kr/bbs/dent/1139/artclList.do"
+  },
+  {
+    "id": "bio-tech",
+    "name": "생명공학부",
+    "college": "환경생명자원대학",
+    "homepage": "http://bio-tech.jbnu.ac.kr"
+  },
+  {
+    "id": "eco",
+    "name": "생태조경디자인학과",
+    "college": "환경생명자원대학",
+    "homepage": "https://eco.jbnu.ac.kr"
+  },
+  {
+    "id": "hanyak",
+    "name": "한약자원학과",
+    "college": "환경생명자원대학",
+    "homepage": "https://hanyak.jbnu.ac.kr",
+    "noticeUrl": "https://hanyak.jbnu.ac.kr/bbs/hanyak/1393/artclList.do"
+  },
+  {
+    "id": "software",
+    "name": "소프트웨어공학과",
+    "college": "AI대학",
+    "homepage": "http://software.jbnu.ac.kr",
+    "noticeUrl": "https://software.jbnu.ac.kr/bbs/software/527/artclList.do"
+  },
+  {
+    "id": "csai",
+    "name": "컴퓨터인공지능학부",
+    "college": "AI대학",
+    "homepage": "http://csai.jbnu.ac.kr",
+    "noticeUrl": "https://csai.jbnu.ac.kr/bbs/csai/4929/artclList.do"
+  }
+]

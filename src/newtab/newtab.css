@@ -1,0 +1,113 @@
+.area-top { display: flex; flex-direction: column; align-items: center; gap: 16px; margin-bottom: 28px; }
+
+.search { width: 100%; max-width: 620px; position: relative; }
+.search-input { width: 100%; padding: 13px 20px !important; border-radius: 999px !important; font-size: 16px !important; }
+
+.shortcuts { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.shortcut {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  font-size: 13px;
+}
+.shortcut:hover { border-color: var(--accent); color: var(--accent); }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 360px; gap: 20px; align-items: start; }
+.area-main, .area-side { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+@media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+
+/* 키워드 칩 */
+.chip-form input { padding: 4px 10px; border-radius: 999px; font-size: 13px; width: 220px; }
+
+/* 키워드 공지 목록 */
+/* 10개까지 보이고 나머지는 목록 안에서 스크롤 (높이는 main.ts 가 10번째 글 기준으로 맞춤) */
+.post-list { list-style: none; margin: 0; padding: 0 4px 0 0; overflow-y: auto; overscroll-behavior: contain; }
+.post-list.scrollable { border-bottom: 1px solid var(--border); }
+.post + .post { border-top: 1px solid var(--border); }
+.post-link { display: block; padding: 10px 6px; border-radius: 8px; }
+.post-link:hover { background: var(--surface-2); }
+.post-meta { display: flex; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); margin-bottom: 2px; }
+.post-meta .date { margin-left: auto; }
+.post-title { font-weight: 500; }
+.post.is-new .post-title { font-weight: 700; }
+.badge-new { background: var(--new); color: #fff; font-size: 10px; font-weight: 700; padding: 1px 6px; border-radius: 4px; }
+
+/* 뉴스 */
+.news-grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; }
+@media (max-width: 640px) { .news-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.news-card { display: block; }
+.news-thumb { aspect-ratio: 16 / 9; background: var(--surface-2); border-radius: 6px; overflow: hidden; margin-bottom: 6px; }
+.news-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.news-title { font-size: 12.5px; font-weight: 600; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.news-card:hover .news-title { color: var(--accent); }
+.news-date { font-size: 11px; color: var(--muted); margin-top: 2px; }
+
+/* 최신 공지 */
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.tab { padding: 4px 10px; border-radius: 999px; font-size: 12px; }
+.tab.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.compact-list { list-style: none; margin: 0; padding: 0; }
+.compact-list a { display: flex; gap: 6px; align-items: baseline; padding: 6px 4px; border-radius: 6px; font-size: 13.5px; }
+.compact-list a:hover { background: var(--surface-2); }
+.compact-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.compact-list .date { color: var(--muted); font-size: 12px; flex-shrink: 0; }
+.pin { flex-shrink: 0; font-size: 11px; font-weight: 700; color: var(--accent); }
+.fetched { margin: 8px 0 0; font-size: 12px; color: var(--muted); }
+
+/* 하단 상태줄 */
+.status { display: flex; gap: 12px; align-items: center; justify-content: flex-end; margin-top: 24px; font-size: 13px; color: var(--muted); }
+
+/* 식단 */
+.meal-list { display: flex; flex-direction: column; gap: 10px; }
+.meal-cafe-name { font-weight: 700; font-size: 13.5px; margin-bottom: 2px; }
+.meal-corner { font-size: 13px; display: flex; gap: 6px; align-items: baseline; }
+.meal-corner + .meal-corner { margin-top: 2px; }
+.meal-corner-name { flex-shrink: 0; font-size: 11px; color: var(--accent); font-weight: 600; min-width: 34px; }
+.meal-items { color: var(--text); }
+.meal-none { font-size: 13px; color: var(--muted); }
+
+/* 학과 선택 */
+.setup { border-color: var(--accent); }
+.row { display: flex; gap: 8px; margin-top: 12px; }
+
+/* 검색 기간 */
+.coverage { margin: -6px 0 10px; font-size: 12px; color: var(--muted); }
+.coverage-warn { color: var(--new); }
+
+/* 업데이트 배너 */
+.update-banner {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+  background: var(--accent-soft); color: var(--accent); border: 1px solid var(--accent);
+  border-radius: var(--radius); padding: 10px 16px; margin-bottom: 20px; font-size: 14px; font-weight: 600;
+}
+
+/* 추천검색어 */
+.search:has(.suggest-list:not([hidden])) .search-input { border-radius: 24px 24px 0 0 !important; border-bottom-color: transparent; }
+.suggest-list {
+  position: absolute; left: 0; right: 0; top: 100%; z-index: 10;
+  list-style: none; margin: 0; padding: 6px 0 10px;
+  background: var(--surface); border: 1px solid var(--border); border-top: 0;
+  border-radius: 0 0 24px 24px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+.suggest-item { display: flex; align-items: center; gap: 12px; padding: 7px 20px; cursor: pointer; font-size: 15px; }
+.suggest-item.active { background: var(--surface-2); }
+.suggest-icon { color: var(--muted); font-size: 16px; width: 16px; text-align: center; }
+.suggest-text b { font-weight: 700; }
+
+/* 바로가기 추가/삭제 */
+.shortcuts { align-items: center; }
+.shortcut-wrap { position: relative; display: inline-flex; }
+.shortcut-del {
+  position: absolute; top: -6px; right: -6px; width: 18px; height: 18px; padding: 0;
+  border-radius: 50%; font-size: 12px; line-height: 16px; text-align: center;
+  background: var(--surface); color: var(--muted); opacity: 0; pointer-events: none; transition: opacity 0.1s;
+}
+.shortcut-wrap:hover .shortcut-del, .shortcut-del:focus-visible { opacity: 1; pointer-events: auto; }
+.shortcut-del:hover { color: var(--new); border-color: var(--new); }
+.shortcut-add { font: inherit; font-size: 15px; line-height: 1; padding: 5px 13px; color: var(--muted); border-style: dashed; cursor: pointer; }
+.shortcut-form { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.shortcut-form input { padding: 5px 10px; border-radius: 999px; font-size: 13px; width: 110px; }
+.shortcut-form input:nth-of-type(2) { width: 180px; }
+.shortcut-form button { padding: 5px 12px; border-radius: 999px; }
+.shortcut-msg { font-size: 12px; color: var(--new); }
